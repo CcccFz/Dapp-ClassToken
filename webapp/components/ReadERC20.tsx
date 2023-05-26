@@ -65,9 +65,9 @@ export default function ReadERC20(props: {
   }, [currentAccount, addressContract])
 
   return (
-    <div style={{marginTop: '50px'}}>
-        <h1>ERC20 Contract: {addressContract}</h1>
-        <h2>token totalSupply: {totalSupply} {symbol}</h2>
+    <div className='mb-12'>
+        <h1 className='bg-gray-400'>ERC20 Contract: {addressContract}</h1>
+        <h2 className='mb-1'>token totalSupply: {totalSupply} {symbol}</h2>
         <h3>ClassToken in current account: {balance} </h3>
     </div>
   )
