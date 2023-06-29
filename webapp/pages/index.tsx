@@ -3,7 +3,11 @@ import { ethers } from 'ethers';
 import ReadERC20 from '../components/ReadERC20';
 import TransferERC20 from '../components/TransferERC20';
 
-const addressContract = '0xeBE83AF7B4a990039645a924802cEEECaD79E204';
+// sepolia
+// const addressContract = '0xeBE83AF7B4a990039645a924802cEEECaD79E204';
+
+// localhost
+const addressContract = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
 
 export default function Home() {
   const [balance, setBalance] = useState<string | undefined>()
